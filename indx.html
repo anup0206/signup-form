@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./style12.css" />
+  </head>
+  <body>
+    <form action="" id="forms" onsubmit="return handleSubmit()">
+      <h2>Registration Form</h2>
+      <div id="form-grp">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" />
+        <span id="fname-error" class="error"></span>
+      </div>
+      <div id="form-grp">
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" />
+        <span id="lname-error" class="error"></span>
+      </div>
+      <div id="form-grp">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" />
+        <span id="email-error" class="error"></span>
+      </div>
+      <div id="form-grp">
+        <label for="pwd">Password:</label>
+        <input type="password" id="pwd" name="pwd" />
+        <span id="pwd-error" class="error"></span>
+      </div>
+      <div id="form-grp">
+        <label for="confPwd">Confirm Password:</label>
+        <input type="password" id="confPwd" name="confPwd" />
+        <span id="confPwd-error" class="error"></span>
+      </div>
+
+      <button id="btn" type="submit">Submit</button>
+    </form>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
